@@ -1,0 +1,11 @@
+# Notes for personal use
+Warning: Stream of conscious
+
+## Get into a node
+srun -p med -t 2:00:00 --mem 16000 --pty bash
+
+# Getting data from jane's directories to mine
+I used this line of code to download the data
+```
+prvasque@farm:/home/jajpark/niehs/Data/rawdata/all_pops/$ cp -R raw_data/ /home/prvasque/projects/niehs/
+```
