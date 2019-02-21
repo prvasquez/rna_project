@@ -8,6 +8,8 @@
 #SBATCH -p med
 #SBATCH -t 24:00:00 
 
+# Last modified 2/20/19
+
 set -e
 set -u
 
