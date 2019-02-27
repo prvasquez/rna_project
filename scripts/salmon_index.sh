@@ -3,8 +3,8 @@
 #SBATCH -o /home/prvasque/projects/niehs/slurm-log/180123-salmindexfmd-stout-%j.txt
 #SBATCH -e /home/prvasque/projects/niehs/slurm-log/180123-salmindexfmd-stderr-%j.txt
 #SBATCH -J salmon_index
-#SBATCH --mem=2600
-#SBATCH -p med
+#SBATCH --mem=8000
+#SBATCH -p high
 #SBATCH -t 24:00:00
 
 set -e
