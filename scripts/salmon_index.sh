@@ -16,3 +16,8 @@ DIR=~/projects/niehs/Data/refseq
 
 cd $DIR
 
+### Set reference
+ref=~/projects/niehs/Data/kfish2rae5g.mrna.combined
+
+### Run Salmon index
+salmon index -t $reft -i kfish_salm_index_fmd --type fmd --threads 8
