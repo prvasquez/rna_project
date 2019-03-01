@@ -17,3 +17,4 @@ I found that I had to increase min mem to 8000.
 Where did the `kfish2rae5g.mrna.combined` come from 
 
 4. Salmon Quant
+What is a library type? ISF vs ISR? Talk about how jane does naming on her files. 
