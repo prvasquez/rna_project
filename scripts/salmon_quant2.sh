@@ -1,8 +1,8 @@
 #/bin/bash -l
 #SBATCH --array=1-83%50
 #SBATCH -D /home/prvasque/projects/niehs/final_scripts/
-#SBATCH -o /home/prvasque/projects/niehs/slurm-log/salmon_quant_stout-%A-%a.txt
-#SBATCH -e /home/prvasque/projects/niehs/slurm-log/salmon_quant_stderr-%A-%a.txt
+#SBATCH -o /home/prvasque/projects/niehs/slurm-log/salmon_quant2_stout-%A-%a.txt
+#SBATCH -e /home/prvasque/projects/niehs/slurm-log/salmon_quant2_stderr-%A-%a.txt
 #SBATCH -J salmon_quant_kfish
 #SBATCH --mem=8000
 #SBATCH -p high
