@@ -20,3 +20,7 @@ Where did the `kfish2rae5g.mrna.combined` come from
 What is a library type? ISF vs ISR? Talk about how jane does naming on her files. 
 
 5. Download quant directories to local computer for R analysis
+```
+scp prvasque@farm.cse.ucdavis.edu:/home/prvasque/projects/niehs/Data/*/* .
+```
+6. Use Rstudio script that jane gave me
