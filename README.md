@@ -21,6 +21,8 @@ What is a library type? ISF vs ISR? Talk about how jane does naming on her files
 
 5. Download quant directories to local computer for R analysis
 ```
-scp prvasque@farm.cse.ucdavis.edu:/home/prvasque/projects/niehs/Data/*/* .
+scp prvasque@farm.cse.ucdavis.edu:/home/prvasque/projects/niehs/Data/counts/*/quant.sf .
 ```
+Cant use this because all the files share the same name `quant.sf` so they just get overwritten on my local computer.
+
 6. Use Rstudio script that jane gave me
